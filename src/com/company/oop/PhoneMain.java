@@ -10,6 +10,9 @@ public class PhoneMain {
         System.out.println(phone1.model);
         System.out.println(phone1.number);
         System.out.println(phone1.weight);
+
+        phone1.receiveCall("Мама");
+        System.out.println(phone1.getNumber());
     }
 
 
